@@ -1,0 +1,262 @@
+{
+  "unpublishedPage": {
+    "name": "首页",
+    "slug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1380,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 65,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "search1",
+              "isCanvas": false,
+              "displayName": "搜索框",
+              "iconSVG": "/static/media/icon.02dadb91d73ad94aa8aaabf7fef790c7.svg",
+              "topRow": 1,
+              "bottomRow": 9,
+              "parentRowSpace": 10,
+              "type": "TARO_SEARCH_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "readonly": false,
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isMobile": true,
+              "key": "6brs66nq18",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "0z8qds2wco",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "inputAlign": "left",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "showButton": false,
+              "rounded": true
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "swiper1",
+              "isCanvas": false,
+              "displayName": "轮播",
+              "iconSVG": "/static/media/icon.4f4fc85755aec79b99f64362b22f7493.svg",
+              "topRow": 10,
+              "bottomRow": 34,
+              "parentRowSpace": 10,
+              "type": "TARO_SWIPER_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isMobile": true,
+              "key": "bj6jn77bks",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "a8zi8rtpwn",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "list": [
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-1.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-2.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-3.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-4.jpg"
+                }
+              ],
+              "parentId": "0",
+              "urlKey": "url",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "grid1",
+              "buttonColor": "#03b365",
+              "isCanvas": false,
+              "displayName": "网格",
+              "iconSVG": "/static/media/icon.8ced2ee28cf2035053835549eab9ded1.svg",
+              "topRow": 35,
+              "bottomRow": 69,
+              "parentRowSpace": 10,
+              "bordered": true,
+              "type": "TARO_GRID_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "titleColor": "#646566",
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "gridType": "I_N",
+              "isMobile": true,
+              "cols": 4,
+              "key": "lc1wqdzbfj",
+              "priceUnit": "￥",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "yycjrpivde",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "descriptionColor": "#DD4B34",
+              "isVisible": true,
+              "list": "[\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  }\n\t,\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  }\n\t,\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  }\n\t,\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  }\n]",
+              "titleKey": "name",
+              "parentId": "0",
+              "urlKey": "url",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "gutter": "0",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "grid2",
+              "buttonColor": "#03b365",
+              "isCanvas": false,
+              "displayName": "网格",
+              "iconSVG": "/static/media/icon.8ced2ee28cf2035053835549eab9ded1.svg",
+              "topRow": 73,
+              "bottomRow": 136,
+              "parentRowSpace": 10,
+              "bordered": true,
+              "type": "TARO_GRID_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "titleColor": "#646566",
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "gridType": "I_N",
+              "isMobile": true,
+              "cols": "2",
+              "key": "lc1wqdzbfj",
+              "priceUnit": "￥",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "5hw6d6t2jc",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "descriptionColor": "#DD4B34",
+              "isVisible": true,
+              "list": "[\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  }\n]",
+              "titleKey": "name",
+              "parentId": "0",
+              "urlKey": "url",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "gutter": "0",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "text1",
+              "isCanvas": false,
+              "displayName": "文本",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "topRow": 69,
+              "bottomRow": 73,
+              "parentRowSpace": 10,
+              "type": "TARO_TEXT_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 24,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "text": "新品",
+              "isMobile": true,
+              "key": "9yzow41n5g",
+              "isDeprecated": false,
+              "rightColumn": 40,
+              "textAlign": "CENTER",
+              "widgetId": "elkbiuukle",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "textColor": "#333",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "fontSize": "1rem"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "首页",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false,
+    "icon": "wap-home-o"
+  },
+  "deleted": false,
+  "gitSyncId": "633abdb83892ca140cb8ae39_633abdb83892ca140cb8ae3b"
+}

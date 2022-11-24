@@ -1,0 +1,35 @@
+{
+  "pages": [
+    {
+      "id": "首页",
+      "isDefault": true
+    },
+    {
+      "id": "全部商品",
+      "isDefault": false
+    },
+    {
+      "id": "购物车",
+      "isDefault": false
+    },
+    {
+      "id": "个人中心",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#C2DAF0",
+  "icon": "shopper",
+  "unpublishedAppLayout": {
+    "type": "MOBILE_FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "MOBILE_FLUID"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}
